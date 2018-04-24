@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<title>freeCodeCamp Project - Calculator</title>
+
+	<link rel="stylesheet" href="main.css">
+	<!-- google font below -->
+	<link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet">
+</head>
+<body>
+	<div class="main-container">
+		<section id="fccCalculator">
+			FCC Calculator
+		</section> <!-- fccCalculator -->
+
+		<div class="calculator-container">
+			<div class="main-calculator">
+				<div id="calculatorScreen">
+					<!-- 1234567890 -->
+				</div> <!-- calculatorScreen -->
+				<div id="operatorScreen">
+					<!-- operators + - etc... -->
+				</div> <!-- operatorScreen -->
+
+				<div class="keypad">
+					<div class="keypad-row">
+						<div id="ac" class="button ac-ce">
+							AC
+						</div>
+						<div id="ce" class="button ac-ce">
+							CE
+						</div>
+						<div id="%" class="button an-operator">
+							&#37;
+						</div>
+						<div id="/" class="button an-operator">
+							&#247;
+						</div>
+					</div> <!-- keypad-row -->
+					<div class="keypad-row">
+						<div id="1" class="button a-number">
+							1
+						</div>
+						<div id="2" class="button a-number">
+							2
+						</div>
+						<div id="3" class="button a-number">
+							3
+						</div>
+						<div id="*" class="button an-operator">
+							&times;
+						</div>
+					</div> <!-- keypad-row -->
+					<div class="keypad-row">
+					    <div id="4" class="button a-number">
+					    	4
+					    </div>
+					    <div id="5" class="button a-number">
+					    	5
+					    </div>
+					    <div id="6" class="button a-number">
+					    	6
+					    </div>
+					    <div id="-" class="button an-operator">
+					    	&minus;
+					    </div>
+					</div> <!-- keypad-row -->
+					<div class="keypad-row">
+					    <div id="7" class="button a-number">
+					    	7
+					    </div>
+					    <div id="8" class="button a-number">
+					    	8
+					    </div>
+					    <div id="9" class="button a-number">
+					    	9
+					    </div>
+					    <div id="+" class="button an-operator">
+					    	&#43;
+					    </div>
+					</div> <!-- keypad-row -->
+					<div class="keypad-row">
+					    <div id="." class="button an-operator">
+					    	.
+					    </div>
+					    <div id="0" class="button a-number">
+					    	0
+					    </div>
+					    <div id="sqr-rt"class="button an-operator">
+					    	&radic;
+					    </div>
+					    <div id="=" class="button ac-ce">
+					    	&#61;
+					    </div>
+					</div> <!-- keypad-row -->
+				</div> <!-- keypad -->
+			</div>
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>

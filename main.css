@@ -1,0 +1,85 @@
+* {
+	margin: 0; border: 0; padding: 0;
+}
+/* CSS Reset above this line... ... ... */
+body {
+	background-color: #000000;
+	font-family: 'Nova Square', cursive;
+	font-size: 20px;
+}
+/* All tag selectors above this line ... ... ... */
+.main-container {
+	background-color: #000000;
+}
+	#fccCalculator {
+		margin: 0 auto 10px auto;
+		width: 50%;
+		background: #000000;
+		color: #FFFFFF;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.calculator-container {
+		background-color: #BBBBBB;
+		margin: 0 auto;
+		height: 100%;
+		width: 50%;
+	}
+		.main-calculator {
+			font-size: 1.75em;
+		}
+			#calculatorScreen {
+				margin: 120px 0 0 0;
+				width: 627px;
+				background-color: #FCEFB9;
+				height: 50px;
+				font-size: 1.2em;
+				padding: 0 5px 0 5px;
+				text-align: right;
+				color: #7D8C76;
+				overflow: hidden;
+			}
+			#operatorScreen {
+				margin: 1px 0 0 0;
+				width: 627px;
+				background-color: #FCEFB9;
+				height: 25px;
+				font-size: 0.6em;
+				padding: 0 5px 0 5px;
+				text-align: right;
+				color: #7D8C76;
+				overflow: hidden;
+			}
+
+			.keypad {
+				margin: 10px;
+			}
+				.keypad-row {
+					margin-top: 20px;
+					display: flex;
+					justify-content: space-between;
+				}
+					.button {
+						border: 1px solid #AAAAAA;
+						border-radius: 10px;
+						text-align: center;
+						width: 150px;
+						height: 55px;
+						cursor: pointer;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.an-operator {
+						background-color: #FFFFFF;
+						color: #AAAAAA;
+					}
+					.a-number {
+						background-color: #AAAAAA;
+						color: #FFFFFF;
+					}
+					.ac-ce {
+						background-color: #000000;
+						color: #FFFFFF;
+					}
